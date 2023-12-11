@@ -3,7 +3,7 @@ import { CustomerServiceOutlined, UserOutlined } from "@ant-design/icons";
 
 const Header = () => {
   return (
-    <section className="header fixed w-screen z-10 bg-white border">
+    <section className="header fixed w-screen z-20 bg-white border">
       <header className="flex justify-around items-center p-3">
         <div className="flex w-8/12 items-center p-2 ">
           <img
@@ -40,7 +40,7 @@ const Header = () => {
             <CustomerServiceOutlined className="mt-1" />
             Help
           </div>
-          <div className="flex item-center h-fit w-3/5 p-2 rounded-lg justify-around  hover:bg-emerald-100">
+          <div className="flex item-center h-fit w-3/5 p-2 rounded-lg justify-between  hover:bg-emerald-100">
             <UserOutlined className="mt-1" />
             Account
           </div>

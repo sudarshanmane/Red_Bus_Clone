@@ -7,7 +7,7 @@ const TrendingOffers = () => {
       <div className="w-11/12 border mx-auto rounded-3xl bg-white">
         <h1
           style={{ color: "rgb(216, 78, 85)" }}
-          className="text-4xl font-bolder p-7"
+          className="text-4xl font-bolder p-7 z-10"
         >
           Trending Offers
         </h1>
@@ -16,7 +16,7 @@ const TrendingOffers = () => {
           <TrendingOfferCard
             logo="https://st.redbus.in/Images/INDOFFER/80x80/SUPERHIT.png"
             hw="no"
-            title="Save up to Rs 300 on AP, TS routesSave up to Rs 300 on AP, TS routes"
+            title="Save up to Rs 300 on AP, TS routes"
             valid="Valid till 31 Dec"
             bg="linear-gradient(71.04deg, rgb(72, 0, 4) -6.92%, rgb(216, 78, 85) 109.43%)"
           ></TrendingOfferCard>
